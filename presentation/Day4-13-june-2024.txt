@@ -1,4 +1,22 @@
 Agenda:
 
 1. Development and deployment of  End to End ML application
-ML Model,Flask,MLFlow and Azure
+ML Model,Flask,UI, MLFlow and Azure
+
+Steps 
+1. Create flaskappdemo folder
+2. open in visual studio code
+3. create and activate virtual environment
+python -m venv venv
+.\venv\Scripts\activate
+4. Install required libraries
+pip install scikit-learn pandas flask pickle
+5. Copy and paste homeprices.csv and linearregression.py
+6. run python linearregression.py
+you will get model in the form of pickle file
+7. create templates folder inside flaskappdemo
+8. copy index.html inside templates folder
+9. copy app.py inside flaskapp folder
+10. run app.py
+python app.py	
+
