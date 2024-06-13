@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Data</title>
+    <script>
+        function postData() {
+            const data = { area: document.getElementById('area').value };
+
+            fetch('/api', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                document.getElementById('result').textContent = 'Predicted price: ' + data.data;
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="area" placeholder="Enter area">
+    <button onclick="postData()">Predict</button>
+    <p id="result"></p>
+</body>
+</html>

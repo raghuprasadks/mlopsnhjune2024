@@ -1,0 +1,4 @@
+Agenda:
+
+1. Development and deployment of  End to End ML application
+ML Model,Flask,MLFlow and Azure

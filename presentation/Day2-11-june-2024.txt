@@ -1,0 +1,85 @@
+Recap:
+1. AI/ML/Deep Learning
+2. ML - Types
+3. Algorithms
+4. Devops
+5. MLOps
+6. Git,Github
+7. GitHub actions
+8. Azure
+9. Virtual Environment
+python path,Script
+pip install virtualenv
+
+virtualenv venv
+.\venv\Scripts\active
+
+Plan for today
+1. MLFlow
+https://mlflow.org/
+2. Purpose
+3. What  are the benefits of MLFlow
+4. Hands on session with MLFlow
+5. WebAPI - Flask,FastAPI
+
+Practicals
+1. activate virtual environment
+.\venv\Scripts\active
+
+2. Install mlflow
+
+pip install mlflow
+
+3. Open another terminal in visual studio code
+activate virtual environment
+mlflow ui - individual
+mlflow ui
+
+for a team
+mlflow server --host 127.0.0.1 --port 8080
+
+pip install scikit-learn pandas
+
+download programs and datafiles from
+https://github.com/TripathiAshutosh/mlflow
+
+copy to practicals folder
+
+pip install jupyter
+
+jupyter notebook
+
+pip install imblearn mlflow
+
+
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 5000
+
+
+dbbrowser for SQLite
+
+
+MLFLow
+1. Create a model
+2. Track the model using mlflow
+3. Store the model in a database
+4. Register a model
+5. Retrieve the model
+6. Serve the model using
+webservices
+7. Develop web/mobile
+
+
+ML End to end application
+
+1. Develop a model
+2. Develop an API to save/retrieve data from the model
+3. Develop UI - web/chat/mobile
+
+Python - Flask,FastAPI
+
+POST,GET,PUT,DELETE
+CRUD 
+
+
+
+
