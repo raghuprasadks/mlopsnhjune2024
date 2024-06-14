@@ -1,0 +1,39 @@
+Agenda:
+1. End to end ML project
+with file upload
+steps:
+1. git clone https://github.com/raghuprasadks/mlopsnhjune2024
+2. cd to dockerproject folder
+3. create and activate virtual environment
+4. Install required libraries
+pip install -r requirements.txt
+5. Run iris-classifier
+6. cd flaskapi
+7. python app.py
+
+done
+
+2. Docker and docker hub
+steps
+Step 1 - create dockerdemo folder
+Step 2 - create a virtual environment inside dockerdemo
+python -m venv venv
+.\venv\Scripts\activate
+Step 3 - pip install flask
+Step 4 - create app.py
+Step 5 - run app.py
+python app.py
+Step 6 - Create Dockerfile
+Step 7 - Create .dockerignore
+Step 8 - create requirements.txt
+pip freeze > requirements.txt
+Step 9 - create docker image
+docker build -t dockerapp .
+Step 10 - run docker image using UI
+
+
+
+3. End to end ML project
+with mlflow
+4. azure cli and githubactions
+for CI/CD
