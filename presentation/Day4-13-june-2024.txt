@@ -18,5 +18,54 @@ you will get model in the form of pickle file
 8. copy index.html inside templates folder
 9. copy app.py inside flaskapp folder
 10. run app.py
-python app.py	
+python app.py
+
+Azure
+
+1. create a virtual machine 
+flaskappdemo
+2. copy the programs using mobaXterm
+3. Install the required libraries
+4. execute the program
+5. open port 8080
+6. test using the azure virtual machine public ip
+
+githubactions
+
+CI - CD
+CI - Continous Integration
+CD - Continous Deployment/Delivery
+
+assignment 
+Steps - clone and deploy flask application
+step 1 - create virtual machine in azure
+step 2 - install git - git is already present
+step 3 - clone following GitHub link 
+
+sudo apt update
+sudo apt install python3-pip
+https://github.com/raghuprasadks/flaskgithubactions in azure virtual machine
+git clone https://github.com/raghuprasadks/flaskgithubactions
+
+pip install flask
+
+app.py
+
+modify following
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',port=8080)
+
+step 4 -
+modify networksetting by adding 8080 as the inbound 
+deploy flask api in the virtual machine and test
+
+4.186.25.61:8080/add
+
+
+
+
+
+
+
+	
 
