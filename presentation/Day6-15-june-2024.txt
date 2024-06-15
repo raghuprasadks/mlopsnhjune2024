@@ -13,14 +13,39 @@ Assignment:
 create a python  flask app.
 cicddemo
 step 1 : create cicddemo folder
-step 2 : create and activate virtual machine
+step 2 : create and activate virtual environment
 step 3 : install flask
 step 4 : create app.py
 with / route
-it should display wel come to flask with cicd
+it should display welcome to flask with cicd
 step 5 : run app.py
 step 6: create requirements.txt using freeze
 step 7 : add .getignore
 step 8 : create a GitHub repo
 with the name cicddemo
 and push the code
+;
+
+CICD with azure
+
+Steps
+1. Login to azure - portal.azure.com
+2. Create a resource group
+with the name cicddemoresourcegroup
+Review and create
+create
+3. click on the resource group which you 
+have created
+4. create a webapp 
+azure service only
+mlopscicddemojune2024
+publish code
+5. Deployment center
+
+select git
+with proper repository name and branch name
+
+
+
+
+
