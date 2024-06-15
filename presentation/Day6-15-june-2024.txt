@@ -3,3 +3,24 @@ Agenda:
 To join the video meeting, click this link: https://meet.google.com/acj-croa-ynr
 Otherwise, to join by phone, dial +1 406-905-1611 and enter this PIN: 474 582 032#
 To view more phone numbers, click this link: https://tel.meet/acj-croa-ynr?hs=5
+
+2. web-app 
+a. create resource
+b. create a webapp
+c. configure git
+
+Assignment:
+create a python  flask app.
+cicddemo
+step 1 : create cicddemo folder
+step 2 : create and activate virtual machine
+step 3 : install flask
+step 4 : create app.py
+with / route
+it should display wel come to flask with cicd
+step 5 : run app.py
+step 6: create requirements.txt using freeze
+step 7 : add .getignore
+step 8 : create a GitHub repo
+with the name cicddemo
+and push the code
