@@ -45,6 +45,33 @@ publish code
 select git
 with proper repository name and branch name
 
+Recap
+
+AIML
+Machine learning 
+
+
+Programming Test
+
+1. Develop machine learning model using used car dataset
+https://www.kaggle.com/datasets/mayankpatel14/second-hand-used-cars-data-set-linear-regression
+2. Write every step as a python pipe line
+3. use mlflow to log metrics,model,experiment,run
+4. Develop flask application to develop UI and back end API
+share the git repository in the group with your name and branch
+5. Deploy application on Azure. Share the application url
+share the url of the application
+
+
+
+
+
+
+
+
+
+
+
 
 
 
