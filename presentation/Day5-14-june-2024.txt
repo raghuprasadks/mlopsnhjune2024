@@ -35,5 +35,26 @@ Step 10 - run docker image using UI
 
 3. End to end ML project
 with mlflow
+
+Steps : 
+
+1. create mlflowendtoend
+2. create virtual environment inside mlflowendtoend
+python -m venv venv
+
+.\venv\Scripts\activate
+
+3. install following libraries
+
+pip install scikit-learn pandas matplotlib mlflow jupyter
+
+4. mlflow ui
+you will get a link http://127.0.0.1:5000/
+download program 7 inside practicals folder in the git
+run one by one cell till machine learning code i,e Generate Confusion matrix
+
+5. control c to stop mlflow ui
+
+6. mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 50
 4. azure cli and githubactions
 for CI/CD
